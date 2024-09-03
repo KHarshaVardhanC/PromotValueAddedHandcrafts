@@ -1,0 +1,79 @@
+@charset "ISO-8859-1";
+*{
+			text-decoration: none;
+		}
+		.navbar{
+			background: rgb(7, 231, 70); font-family: calibri; padding-right: 15px;padding-left: 15px;
+		}
+		.navdiv{
+			display: flex; align-items: center; justify-content: space-between;
+		}
+		.logo a{
+			font-size: 35px; font-weight: 600; color: white;
+		}
+		li{
+			list-style: none; display: inline-block;
+		}
+		li a{
+			color: white; font-size: 18px; font-weight: bold; margin-right: 25px;
+		}
+		.material-symbols-outlined {
+		  font-variation-settings:
+		  'FILL' 0,
+		  'wght' 400,
+		  'GRAD' 0,
+		  'opsz' 48
+		}
+				button{
+			background-color: rgba(139, 150, 52, 0.418); margin-left: 10px; border-radius: 10px; padding: 10px; width: auto;
+			
+		}
+		button a{
+			color: white; font-weight: bold; font-size: 15px;
+		}
+		body{
+    background-color: aqua;
+    font-family: cursive;
+}
+.container{
+    /* align: center; */
+        background-color: azure;
+        border: 10px solid rgb(13, 223, 51);
+        padding: 100px 100px 100px 100px;
+        width: 400px;
+        height: 500px;
+        margin: auto;
+        border-radius: 20px;
+
+}
+p{
+    font-size: medium;
+    
+}
+p a{
+    font-weight: bold;
+}
+form label{
+    font-size: medium;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+}
+form input{
+    width: 80%;
+    outline: none;
+    border: none;
+    background: #dfe9f5;
+    padding: 12px 14px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+.btn
+{
+    background-color: rgb(11, 229, 229);
+        border: 3px solid rgb(13, 223, 51);
+        padding: auto;
+        width: 100px;
+        height: 40px;
+        margin: auto;
+        border-radius: 20px;
+        font-weight: bold;
+}
